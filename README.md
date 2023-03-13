@@ -1,21 +1,19 @@
 # ElixirSkills
 
-**TODO: Add description**
+A place for me to hone my Elixir skills.
 
-## Installation
+## Getting started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_skills` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir_skills, "~> 0.1.0"}
-  ]
-end
+```sh
+mix new elixir_skills
+cd elixir_skills
+iex -S mix # Runs the REPL
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/elixir_skills>.
+## Working with dates
 
+Add ` {:timex, "~> 3.0"}` to the dependency list in `mix.exs`.
+
+```sh
+mix deps.get
+```
